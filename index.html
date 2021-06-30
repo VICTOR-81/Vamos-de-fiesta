@@ -18,21 +18,22 @@
       <div class="container">
         <div class="header__top-inner">
           <div class="logo">
-            <a href="">
+            <a href="#">
               <img src="images/logo.png" alt="logo">
             </a>
           </div>
+          <button class="header__btn-contacts">Contactos</button>
           <div class="header__top-contacts">
-            <a class="link1" href="tel:34691639893">+34691639893</a>
-            <a class="link2" href="tel:34641490503">+34641490503</a>
-            <a class="link3" href="mailto:blackbeepd@gmail.com">blackbeepd@gmail.com</a>
+            <div><a class="link1" href="tel:34691639893">+34691639893</a></div>
+            <div><a class="link2" href="tel:34641490503">+34641490503</a></div>
+            <div><a class="link3" href="mailto:blackbeepd@gmail.com">blackbeepd@gmail.com</a></div>
           </div>
         </div>
       </div>
     </div>
     <div class="container">
       <div class="header__title">
-        <img src="images/header__title.png" alt="">
+        Vamos <span>de</span> fiesta
       </div>
       <div class="header__text">
         Decoración de fiestas y eventos
@@ -164,7 +165,7 @@
       <div class="work">
         <div class="container">
           <div class="work__title">
-            Candy Bars
+            Candy Bar
           </div>
         </div>
       </div>
@@ -196,19 +197,19 @@
         <div class="footer__inner">
           <button class="footer__button popup-with-form">Hacer una pregunta</button>
           <div class="popup white-popup mfp-hide">
-            <form action="#">
+            <form action="mail.php" method="POST" name="form" autocomplete="off">
               <div class="form__title">
                 Preguntanos
               </div>
               <div>
-                <textarea name="mess" id="mess" class="inputbox" cols="30" rows="10" placeholder="Texto"></textarea>
+                <textarea name="message" id="mess" class="inputbox" cols="30" rows="10" placeholder="Texto"></textarea>
               </div>
               <div>
                 <div>
-                  <input id="name" class="inputbox" type="text" placeholder="Nombre" />
+                  <input name="name" class="inputbox" type="text" placeholder="Nombre" />
                 </div>
                 <div>
-                  <input id="email" class="inputbox" type="email" placeholder="Correo electronico" />
+                  <input name="email" class="inputbox" type="email" placeholder="Correo electronico" />
                 </div>
                 <input type="submit" value="Enviar mensaje">
               </div>

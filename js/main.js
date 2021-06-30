@@ -7,4 +7,8 @@ $(function(){
         }
   });
 
+
+  $('.header__btn-contacts').on('click', function(){
+    $('.header__top-contacts').slideToggle();
+  });
 });
