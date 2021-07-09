@@ -1,0 +1,154 @@
+@media (max-width: 1106px){
+  .header__top-contacts{
+    max-width: 725px;
+  }
+  .header__title{
+    padding-top: 25px;
+    font-size: 135px;
+    line-height: 200px;
+  }
+}
+
+
+
+@media (max-width: 910px){
+  .header{
+    background-size: auto;
+    height: 100%;
+  }
+  .header__top-contacts{
+      display: none;
+      position: absolute;
+      top: 100px;
+      max-width: 100%;
+      left: 0px;
+      div{
+        background-color: rgba(0, 0, 0, 0.8);
+        text-align: center;
+      }
+      a{
+        display: inline-block;
+        padding: 15px 0;
+        padding-left: 30px;
+        &:hover{
+          border-bottom: 1px solid transparent;
+          color: #F1EDED;
+        }
+      }
+  }
+  .header__btn-contacts{
+    display: block;
+    margin-left: auto;
+  }
+  .header__title {
+    font-size: 89px;
+    line-height: 108px;
+    padding-top: 45px;
+  }
+  .header__text{
+    font-size: 25px;
+    min-width: 100%;
+  }
+  .bienvenidos__title{
+    font-size: 60px;
+  }
+  .bienvenidos__services{
+    line-height: 38px;
+  }
+  .work{
+    min-height: 100px;
+  }
+  .work__title{
+    font-size: 55px;
+    line-height: 55px;
+  }
+  .work__img-inner{
+    padding-top: 15px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 635px){
+  .footer__contacts{
+    display: block;
+    padding-top: 38px;
+  }
+  .footer__inner{
+    padding-top: 20px;
+    text-align: center;
+  }
+}
+
+@media(max-width: 425px){
+  .header__top-inner{
+    min-height: 70px;
+  }
+  .header__top-contacts{
+    top: 70px;
+  }
+  .header__title {
+    font-size: 65px;
+    line-height: 70px;
+    padding-top: 50px;
+    letter-spacing: 10px;
+    span{
+      display: block;
+    }
+  }
+  .header__text{
+    font-size: 16px;
+    padding-top: 50px;
+  }
+  .bienvenidos__title{
+    font-size: 35px;
+  }
+  .bienvenidos__signature{
+    padding-left: 150px;
+    line-height: 30px;
+    &::before{
+      right: 200px;
+      top: -49px;
+    }
+  }
+  .work__title{
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .work__img-inner{
+    display: block;
+  }
+  .footer__top{
+    min-height: 100px;
+  }
+  .footer__top-title{
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .form__title{
+    padding-top: 40px;
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .mfp-close{
+    top: 7px;
+    right: 11px;
+    &:active{
+      top: 7px;
+      right: 11px;
+    }
+  }
+}
+
+
+@media (max-width: 375px){
+  .bienvenidos__signature::before{
+    right: 180px;
+  }
+}
+
+
+@media (max-width: 320px){
+  .bienvenidos__signature::before{
+    right: 135px;
+  }
+}

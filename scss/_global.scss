@@ -1,0 +1,27 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+body{
+ font-weight: 400;
+ letter-spacing: 0.075em;
+ line-height: 115.19%;
+}
+.container{
+  max-width: 1275px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+button{
+  border: none;
+  outline: none;
+}
+a{
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
