@@ -6,12 +6,11 @@
 
 
 .header{
-  background-color: #141414;
   background-image: url(../images/header-bg.jpg);
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  height: 100vh;
+  background-position: top center;
   &__btn-contacts{
     display: none;
     background: rgba(52, 53, 55, 0.9);
@@ -82,60 +81,33 @@
     a + a{
       margin-left: 37px;
     }
-    a:hover::before {
-      display: block;
-    }
   }
 }
 .logo{
   padding-top: 6px;
 }
-.link1::before{
-  position: absolute;
-  content: url(../images/link1.svg);
-  left: 0;
-}
-.link2::before{
-  position: absolute;
-  content: url(../images/link2.svg);
-  left: 0;
-}
+.link1::before,
+.link2::before,
 .link3::before{
   position: absolute;
+  left: 0;
+}
+.link1::before{
+  content: url(../images/link1.svg);
+}
+.link2::before{
+  content: url(../images/link2.svg);
+}
+.link3::before{
   content: url(../images/link3.svg);
-  left: 0;
 }
-.link4::before{
-  position: absolute;
-  content: url(../images/pinterest1.svg);
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: none;
-  transition: all .5s;
+.link4:hover,
+.link5:hover,
+.link6:hover{
+  path{
+    fill: #F53100;
+  }
 }
-.link5::before{
-  position: absolute;
-  content: url(../images/facebook1.svg);
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: none;
-  transition: all .5s;
-}
-.link6::before{
-  position: absolute;
-  content: url(../images/instagram1.svg);
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: none;
-  transition: all .5s;
-}
-
 .bienvenidos{
   background-color: #F5F0F0;
   text-align: center;
@@ -220,13 +192,16 @@
     img{
       max-width: 100%;
       max-height: 100%;
+      box-shadow: 0px 11px 14px 4px rgba(0, 0, 0, 0.25);
     }
+  }
+  &__img{
+    padding: 15px;
   }
 }
 
 .footer{
-  background-color: #141414;
-  background-image: url(../images/footer-bg.png);
+  background-image: url(../images/footer-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
